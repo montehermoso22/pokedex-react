@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import css from './App.css';
-import axios from 'axios';
+import './App.css';
+
 
 export default function App() {
   const [pokemon, setPokemon] = useState(null);
